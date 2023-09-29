@@ -5,8 +5,7 @@
     padding: 0;
 }
 body{
-    background: #f5f7f8f3;
-    
+    background: #8ce1ebf3;    
 }
   /*--------header----- */
 
@@ -21,11 +20,11 @@ header{
 }
 
 h1{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 2rem;
-    color: #fff;
-    
+    color: #fff;    
 }
+
 .header-list{
     display: flex;
     align-items: center;
@@ -58,9 +57,12 @@ h1{
 .header-list ul li a:hover::after{
     width: 100%;
 }
+
+/* ------- sub-title ------- */
+
 .sub-title{
     width: 100%;
-    height: 80vh; 
+    height: 70vh; 
     background-image: url(/assets/images/back-ground.jpeg);
     background-size: cover;
     background-position: center;
@@ -69,27 +71,35 @@ h1{
     margin-left: 0;         
 }
 .sub-title p{
-    padding: 40px;
+    padding: 40px 0 0 40px;
     font-size: 40px;
 }    
 .sub-title h2{
-    padding: 20px;
+    padding: 0 5px 0 40px;
     font-weight: 400;
     font-size: 40px;
     color: #080a0b;    
 }
+.sub-title img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 10px;    
+}
+
+
+/* -------- about-m ------- */
+
 .about{
+    display: flex; 
     width: 100%;
-    height: 80px;
-    display: flex;
-    flex: 1 0 200px;
-    justify-content: space-evenly;
+    height: 80px;       
     margin: 10px 20px;
 }
 .about h3{
     margin: 20px 10px;
     text-align: end;
-    width: 30%;
+    width: 20%;
     font-size: 25px;
 }
 #vertical-line{
@@ -101,4 +111,69 @@ h1{
 .about p{
     margin: 20px 10px;
     font-size: 20px;
+}
+
+/* ----------- work ------- */
+
+.my-work{
+    display: flex;
+    width: 100%;
+    height: 500px;          
+    margin: 20px 20px;
+}
+.my-work h3{
+    margin: 20px 10px;
+    text-align: end;
+    width: 13%;
+    font-size: 25px;
+}
+#vertical-line-1{     
+    margin-top: 30px; 
+    width: 3px;
+    height: 500px; 
+    background-color: black;
+ } 
+ .my-work img{ 
+    margin: 30px 10px;  
+    border: 5px solid #5f8466;  
+    height: 500px;     
+ } 
+
+/* ------------ contact -------- */
+
+.contact{    
+    display: flex;    
+    width: 100%;
+    height: 80px;       
+    margin: 10px 20px;
+}
+.contact h3{
+    margin: 20px 10px;
+    text-align: end;
+    width: 13%;
+    font-size: 25px;
+}
+#vertical-line-2{
+    margin-top: 20px;
+    width: 3px;
+    height: 100%;
+    background-color: black;
+}
+.contact p{  
+    margin: 40px 30px; 
+    align-items: center; 
+    font-size: 16px;  
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    margin: 20px;
+    background-color: rgba(12, 100, 113, 0.952);
+    padding: 10px;
+}
+.footer p{
+    color: #fff;
+    align-items: center;
 }
