@@ -73,7 +73,8 @@ h1{
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 0;
-    margin-left: 0;         
+    margin-left: 0; 
+    border-bottom: 3px solid var(--text-color);        
 }
 .sub-title p{
     padding: 40px 0 0 40px;
