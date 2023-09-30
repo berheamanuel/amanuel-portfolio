@@ -155,7 +155,6 @@ h1{
  }
  #second-imag:hover{
     margin-left: 40px;
-
  }
 
  
@@ -296,37 +295,8 @@ h1{
      } 
      #first-app img:hover{
         margin: auto;
-        height: 350px;
-        width: 250px;
-        border: 5px solid #e35812;
+        height: 200px;
+        width: 150px;
+        border: 5px solid #8ab50a;
      }
-     #second-imag:hover{
-        margin-left: 40px;    
-     }
-     .contact{
-        display: flex;
-        flex-wrap: wrap;
-     }
-     .contact h3{    
-        font-size: 20px;
-        margin: 20px;
-        margin-left: 1px;
-    }
-    #vertical-line-2{        
-        height: 0;        
-    }
-    .contact p{  
-        margin: 20px 5px;         
-        font-size: 14px;  
-        font-weight: 400;
-        font-style: oblique;
-        color: #080a0b;
-    }
-    .footer{
-        height: 40px;
-        width: 100%;
-        margin: 20px 0;        
-        padding: 10px;
-    }
-
 }
