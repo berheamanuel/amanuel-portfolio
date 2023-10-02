@@ -13,9 +13,8 @@ https://berheamanuel.github.io/amanuel-portfolio/
 
 ## Screenshot
 
-    ```md
-    ![screenshot](./assets/images/Web%20capture.jpeg)
-    ```
+    md![screenshot](./assets/images/Web capture.jpeg)
+
 
 ## Technologies
 -HTML
